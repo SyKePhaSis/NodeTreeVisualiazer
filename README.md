@@ -4,14 +4,14 @@ Input a list of words or names and the program breaks down the words to characte
 ## INSTALLATION 
 Your first have to download the repository files and the build the program.c file using this command:
 
-'''bash
+'''console
 cc -Wall -Werror -std=c17 -pedantic -ggdb -o program program.c
 '''
 
 ## USAGE
 To use the program just run the program followed by the input file:
 
-'''bash 
+'''console
 ./program input_file
 '''
 
