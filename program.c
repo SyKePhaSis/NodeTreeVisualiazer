@@ -186,6 +186,10 @@ int main(int argc, char* argv[]){
     printf("[ERROR]More than 1 accepted arguement passed...\n");
     return 1;
   }
+  if(strcmp(argv[1], "help") == 0 || strcmp(argv[1], "h") == 0 || strcmp(argv[1], "Hello") == 0){
+    printf("type:%s input_file \nInput the file directory to continue.\n", argv[0]);
+    return 0;
+  }
   char* file_name = argv[1];
   char** list = create_list(file_name);
   sort_list(list);
