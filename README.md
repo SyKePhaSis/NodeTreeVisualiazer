@@ -21,5 +21,5 @@ The input file must be words with one in each line:
 ```bash
 animal
 danger
-exit
+outlaw
 ```
