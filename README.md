@@ -11,14 +11,14 @@ cc -Wall -Werror -std=c17 -pedantic -ggdb -o program program.c
 ## USAGE
 To use the program just run the program followed by the input file:
 
-'''console
+'''shell
 ./program input_file
 '''
 
 ## INPUT FILE
 The input file must be words with one in each line:
 
-'''bash
+'''shell
 animal
 danger
 exit
