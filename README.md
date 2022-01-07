@@ -4,22 +4,22 @@ Input a list of words or names and the program breaks down the words to characte
 ## INSTALLATION 
 Your first have to download the repository files and the build the program.c file using this command:
 
-'''shell
+```bash
 cc -Wall -Werror -std=c17 -pedantic -ggdb -o program program.c
-'''
+```
 
 ## USAGE
 To use the program just run the program followed by the input file:
 
-'''shell
+```bash
 ./program input_file
-'''
+```
 
 ## INPUT FILE
 The input file must be words with one in each line:
 
-'''shell
+```bash
 animal
 danger
 exit
-'''
+```
